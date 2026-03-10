@@ -12,6 +12,5 @@ namespace BagOfHolding.Models
         [Required]
         public int PlayerId { get; set; }
         public string PlayerName { get; set; } = string.Empty;
-        public string CharacterName { get; set; } = string.Empty;
     }
 }
